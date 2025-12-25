@@ -22,10 +22,10 @@ export default function Page() {
         fontFamily: "Segoe UI, Tahoma, sans-serif",
       }}
     >
-      <h1 style={{ color: "#ffffff", marginBottom: 20, fontSize: 28 }}>JARVIS</h1>
+      <h1 style={{ color: "#8bbbfaff", marginBottom: 20, fontSize: 28 }}>JARVIS</h1>
       <div style={{ display: "flex", flexDirection: "row", width: "100%", height: "calc(100% - 60px)" }}>
         <section style={{ flex: 1, paddingRight: 30, display: "flex", flexDirection: "column", alignItems: "center" }}>
-          <h2 style={{ fontSize: 22, marginBottom: 10, color: "#a78bfa" }}>
+          <h2 style={{ fontSize: 22, marginBottom: 10, color: "#8bbbfaff" }}>
             Visual Scanner
           </h2>
           <CameraProcessor
@@ -55,7 +55,7 @@ export default function Page() {
           </div>
         </section>
         <section style={{ flex: 1, display: "flex", flexDirection: "column" }}>
-          <h2 style={{ fontSize: 22, marginBottom: 10, color: "#a78bfa" }}>
+          <h2 style={{ fontSize: 22, marginBottom: 10, color: "#8bbbfaff" }}>
             Assistant
           </h2>
           <JarvisListener

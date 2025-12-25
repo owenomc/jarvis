@@ -374,7 +374,7 @@ export default function JarvisListener({
         style={{
           backgroundColor: "#1e1e1e",
           borderRadius: 16,
-          boxShadow: "0 0 20px rgba(255, 255, 255, 0.1)",
+         
           padding: 20,
           maxWidth: 460,
           color: "white",
@@ -387,7 +387,7 @@ export default function JarvisListener({
         role="region"
         aria-label="Jarvis Voice Assistant"
       >
-        <h2 style={{ color: "#a78bfa", margin: 0, marginBottom: 10 }}>
+        <h2 style={{ color: "#8bbbfaff", margin: 0, marginBottom: 10 }}>
           Jarvis Voice Assistant
         </h2>
 
